@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.german {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33vh;
+    width: 100%;
+}
+
+.p1 {
+    background-color: black;
+    width: 100%;
+    height: 33%;
+}
+
+.p2 {
+    background-color: red;
+    width: 100%;
+    height: 33%;
+}
+
+.p3 {
+    background-color: yellow;
+    width: 100%;
+    height: 33%;
+}
+
+.german:hover {
+    .p1 {
+        background-color: red;
+    }
+    .p2 {
+        background-color: white;
+    }
+    .p3 {
+        background-color: green;
+    }
+}
+
+
+
+.french {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 33vh;
+    width: 100%;
+}
+
+.p4 {
+    background-color: blue;
+    width: 33%;
+    height: 100%;
+}
+
+.p5 {
+    background-color: white;
+    width: 33%;
+    height: 100%;
+}
+
+.p6 {
+    background-color: red;
+    width: 33%;
+    height: 100%;
+}
+
+.french:hover {
+    .p4 {
+        background-color: limegreen;
+    }
+    .p5 {
+        background-color: white;
+    }
+    .p6 {
+        background-color: orange;
+    }
+}
+
+.japan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 33vh;
+    width: 100%;
+    background-color: white;
+}
+
+.p7 {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
